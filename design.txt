@@ -1,0 +1,20 @@
+bjb_task_scheduler
+
+A simple task scheduler that takes its input from one or more text files
+
+Primary input is a list of tasks with durations and optional priorities and resource names
+Secondary input is a list of resource names
+
+The scheduler will
+	Sort tasks by priority
+	Assign tasks to resources using the specified resource for a task if it is assigned otherwise cyclically
+	Produce a list of tasks for each resource showing when they will start and finish (first tasks start today)
+
+
+
+Stretch goals
+
+"Not available" time for resources
+Start and/or end dates for tasks
+Task dependencies
+Percentage free time for resources
